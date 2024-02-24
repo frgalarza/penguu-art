@@ -6,21 +6,21 @@ export default function Home() {
   return (
     <main className={styles.main}>
         <header className={styles.pannel}>
-          <h1 className={styles.title}>Penguu Art ❤</h1>
-          <Image src={icono} height={"200"} width={"400"} alt='penguu icon'/>
+          <Image className={styles.figure} src={icono} height={"300"} width={"400"} alt='penguu icon'/>
           <h2 className={styles.subTitle}>Comisiones abiertas</h2>
-        </header>
-        <div className={styles.lists}>
-          <ul  className={styles.ul}>
-            <li><button className={styles.button}>Sobre mi</button></li>
-            <li><button className={styles.button}>Mis trabajos</button></li>
-            <li><button className={styles.button}>Precios</button></li>
-            <li><button className={styles.button}>Terminos y condiciones</button></li>
+          <ul className={`${styles.ul} ${styles.social}`}>
+            <li><a href="https://www.tiktok.com/@penguu.art" target='_blank'>TikTok</a></li>
+            <li><a href="https://www.instagram.com/penguu.art/?hl=es-la" target='_blank'>Instagram</a></li>
+            <li><a href="https://twitter.com/penguu_art" target='_blank'>Twitter</a></li>
           </ul>
-          <ul className={styles.ul}>
-            <li><a href="">TikTok</a></li>
-            <li><a href="">Instagram</a></li>
-            <li><a href="">Twitter</a></li>
+        </header>
+        <div className={styles.content}>
+          <h1 className={styles.title}>Penguu Art ❤</h1>
+          <ul  className={styles.ul}>
+            <li className={styles.li}><button className={styles.button}>Sobre mi</button></li>
+            <li className={styles.li}><button className={styles.button}>Mis trabajos</button></li>
+            <li className={styles.li}><button className={styles.button}>Precios</button></li>
+            <li className={styles.li}><button className={styles.button}>Terminos y condiciones</button></li>
           </ul>
         </div>
     </main>
