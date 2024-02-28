@@ -72,11 +72,20 @@
   box-shadow: 3px 3px #bc8ed6;
   font-weight: 900;
   cursor: pointer;
+  font-family: var(--font-body);
+  font-weight: 900;
+  font-size: 1rem;
 }
 
 .figure{
   border-radius: 100%;
   filter: drop-shadow(0 0 10px #A2D2FF);
+}
+
+.button:hover{
+  background-color: #BDE0FE;
+  box-shadow: 3px 3px #A2D2FF;
+  transform: scale(1.05);
 }
 
 

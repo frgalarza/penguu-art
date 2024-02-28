@@ -10,7 +10,7 @@ export default function Home() {
     <main className={styles.main}>
         <header className={styles.pannel}>
           <Image className={styles.figure} src={icono} height={"300"} width={"600"} alt='penguu icon'/>
-          <h2 className={styles.subTitle}>Comisiones abiertas</h2>
+          <h2 className={styles.title}>Comisiones abiertas</h2>
           <ul className={`${styles.ul} ${styles.social}`}>
             <li><a href="https://www.tiktok.com/@penguu.art" target='_blank'><FaTiktok /></a></li>
             <li><a href="https://www.instagram.com/penguu.art/?hl=es-la" target='_blank'><FiInstagram/></a></li>
