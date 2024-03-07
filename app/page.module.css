@@ -7,6 +7,15 @@
   width: 100%;
 }
 
+.main, .content{
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade{
+  opacity: 0;
+}
+
 .pannel{
   display: flex;
   flex-direction: column;
@@ -99,7 +108,7 @@
 }
 
 .figure{
-  border-radius: 100%;
+  clip-path: circle(50% at 50% 50%);
   filter: drop-shadow(0 0 10px #A2D2FF);
 }
 
