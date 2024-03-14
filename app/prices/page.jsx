@@ -1,9 +1,10 @@
 import Image from "next/image"
 import styles from './page.module.css'
+import prueba from '../../public/prueba.gif'
 
 export default function Prices(){
     return <section className={styles.section}>
-        <header><h1>Precios</h1></header>
+        <header><h1 className={styles.title}>Precios</h1></header>
         <section>
             <h3>POR UNIDAD:</h3>
             <p>Emotes: 8 $USD</p><Image width='364' height='210' alt="example" src="https://i.pinimg.com/originals/53/bb/92/53bb92f7fe69073825e2db764ed9c264.gif" />
@@ -11,6 +12,9 @@ export default function Prices(){
         </section>
         <section>
             <h3>PACK AFILIADO:</h3>
+            <figure className={styles.divFigure} >               
+                <Image className={styles.divFigure} src={prueba} fill sizes="{max-width: 300px} 100vw, 200px"/>
+            </figure>
             <p>Contiene 5 emotes formato PNG y un emote animado formato GIF: 40 $USD</p>
         </section>
         <section>

@@ -1,0 +1,21 @@
+.button{
+    text-decoration: none;
+    display: flex;
+    max-width: 300px;
+    width: 20%;
+    height: 60px;
+    font-family: var(--font-body);
+    font-weight: 800;
+    font-size: 1.2rem;
+    background-color: #CDB4DB;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 3px 3px 5px #bc8ed6;
+}
+
+.button:hover{
+    background-color: #BDE0FE;
+    box-shadow: 3px 3px #A2D2FF;
+    transform: scale(1.05);
+}
