@@ -5,6 +5,7 @@
     justify-content: space-evenly;
     align-items: left;
     padding: 0 15%;
+    font-family: var(--font-body);
 }
 
 
@@ -16,4 +17,23 @@
     height: 300px;
     width: 400px;
     border-radius: 20px;
+}
+
+.sectionPrice{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.subtitle{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.divBack{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
 }

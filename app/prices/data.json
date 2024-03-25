@@ -1,0 +1,57 @@
+{
+    "unit": [
+        {
+            "name": "Emote",
+            "priceUsd": 8,
+            "priceArs": 5000,
+            "img":"https://i.imgur.com/FoWgBJE.png",
+            "description": "Emote personalizado en formato PNG"
+        },
+        {
+            "name": "Emote Animado",
+            "priceUsd": 10,
+            "priceArs": 7000,
+            "img": "https://i.imgur.com/uHOhgRB.gif",
+            "description": "Emote personalizado en formato GIF"
+        }
+    ],
+    "packs":[
+        {
+            "name": "PACK BASE",
+            "priceUsd": 35,
+            "priceArs": 25000,
+            "img":"",
+            "description": "5 emotes base personalizados"
+        },
+        {
+            "name": "PACK ANIMADO",
+            "priceUsd": 40,
+            "priceArs": 35000,
+            "img":"",
+            "description": "5 emotes animados personalizados"
+        },
+        {
+            "name": "PACK AFILIADO",
+            "priceUsd": 75,
+            "priceArs": 55000,
+            "img":"",
+            "description": "5 emotes base personalizados \n 5 emotes animados personalizados"
+        }
+    ],
+    "emblems": [
+        {
+            "name": "EMBLEMA UNIDAD",
+            "priceUsd": 7,
+            "priceArs": 4000,
+            "img":"",
+            "description": "Un emblema en formato PNG"
+        },
+        {
+            "name": "PACK EMBLEMAS",
+            "priceUsd": 35,
+            "priceArs": 24000,
+            "img":"",
+            "description": "6 emblemas en formato PNG"
+        }
+    ]
+}
